@@ -1,12 +1,13 @@
 /* Javascript Problem Solving Assignment:
+https://github.com/ahsanhabibsunny365/javascript--problem-solving
 
-1.KiloMeter To Meter Convater.
-2.Budget Calcutator.
-3.Hotel Cost.
-4.Mega Friend Name.
+1.kilometerToMeter
+2.budgetCalculator
+3.hotelCost
+4.megaFriend
 */
 
-//1.KiloMeter To Meter Convater:
+//1.kilometerToMeter:
 
 function kilometerToMeter(kilometer){
             if(kilometer>= 0){
@@ -20,7 +21,7 @@ function kilometerToMeter(kilometer){
         var result = kilometerToMeter(9); //Add your input ;
         console.log(result);
 
-//2.Budget Calcutator:
+//2.budgetCalculator:
     
 function budgetCalculator(watch, smartPhone, laptop){
     if(watch >=0, smartPhone>=0, laptop>=0){
@@ -37,7 +38,7 @@ function budgetCalculator(watch, smartPhone, laptop){
 var result = budgetCalculator(7,12,5);
 console.log(result);
 
-//3.Hotel Cost
+//3.hotelCost
 
 function hotelCost(day){
     if(day <= 10){
@@ -62,7 +63,7 @@ function hotelCost(day){
 var result = hotelCost(17);
 console.log(result);
 
-//4.Mega Friend Name:
+//4.megaFriend
             var friendName = ['Manna','Dipjol','Robal','Hero Alam','Dilder','Abdul'];
             function megaFriend(arr){
             return arr.reduce((max,name)=>{
