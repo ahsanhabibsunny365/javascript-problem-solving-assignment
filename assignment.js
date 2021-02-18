@@ -1,5 +1,5 @@
 /* Javascript Problem Solving Assignment:
-https://github.com/ahsanhabibsunny365/javascript--problem-solving
+https://github.com/ahsanhabibsunny365/javascript-problem-solving-assignment
 
 1.kilometerToMeter
 2.budgetCalculator
